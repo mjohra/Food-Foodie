@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Merriweather", serif;
+}
+.box-area {
+  text-align: center;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  height: 100px;
+  background-image: linear-gradient(orange, tomato);
+
+  width: 100%;
+  position: fixed;
+}
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 100px;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Merriweather", serif;
+  color: white;
+  letter-spacing: 5px;
+}
+nav {
+  float: right;
+  line-height: 60px;
+}
+nav a {
+  text-decoration: none;
+  font-family: "Merriweather", serif;
+  letter-spacing: 3px;
+  font-size: 20px;
+  margin: 0 10px;
+  color: white;
+}
+h1 {
+  margin-top: 40px;
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(83, 80, 80);
+}
+h3 {
+  font-size: 40px;
+  color: rgb(110, 103, 103);
+  font-weight: 700;
+}
+h2 {
+  font-size: 40px;
+  color: rgb(110, 103, 103);
+  text-align: center;
+  font-weight: 700;
+}
+
+.recipe-flex-container {
+  display: flex;
+}
+
+.orange-color {
+  color: orange;
+}
+.top-part {
+  margin-top: 100px;
+}
+.middle-part {
+  margin-top: 100px;
+}
+.top-part p {
+  color: gray;
+  margin-bottom: 40px;
+}
+
+.order-btn {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 20px 40px;
+  color: white;
+  border-radius: 50px;
+}
+.flex-container {
+  display: flex;
+}
+
+.top-part {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.top-part img {
+  width: 70%;
+}
+.intro-container {
+  background-image: url(images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+}
+.self-intro-container {
+
+  background-image: url(images/shapes/Frame\ 56.jpg);
+  background-repeat: no-repeat;
+}
+.middle-part img {
+  width: 45%;
+  margin-left: 15%;
+}
+.middle-part {
+  width: 50%;
+}
+.food-me {
+  margin-top: 80px;
+  margin-bottom: 150px;
+  padding-right: 5%;
+}
+
+.contact-me-btn {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(119, 0, 255), rgb(71, 187, 255));
+  padding: 20px 40px;
+  margin-top: 100px;
+  color: white;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+.flex {
+  display: flex;
+}
+.recipe-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.recipe-intro-detail {
+  text-align: center;
+  padding: 5px 400px;
+  margin-bottom: 50px;
+}
+.recipe-area {
+  box-shadow: 10px 10px 40px gray;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+.recipe-area img {
+  width: 100%;
+  padding-top: 30px;
+  border-radius: 20px;
+}
+
+.recipe-area p {
+  text-align: justify;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.recipe-area h3 {
+  margin-top: 90px;
+  text-align: center;
+  color: #b53471;
+}
+.similarity-recipe {
+  margin-bottom: 100px;
+}
+.similarity-recipe h1 {
+  text-align: center;
+  color: #ffc312;
+  margin-bottom: 5%;
+}
+
+.flex-detail-recipe {
+  display: flex;
+}
+.recipe-box {
+  box-shadow: 20px 20px 40px gray;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+}
+.recipe-box img {
+  width: 100%;
+  padding-top: 30px;
+  border-radius: 20px;
+}
+
+.recipe-box p {
+  text-align: justify;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.recipe-box h3 {
+  margin-top: 90px;
+  text-align: center;
+  color: #b53471;
+}
+
+.recipe-container h2 {
+  text-align: center;
+  color: #292928;
+}
+.recipe-intro {
+  padding: 5px 400px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.home {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 20px 40px;
+  color: white;
+  border-radius: 50px;
+}
+.bottom-area {
+  background: white;
+  width: 50%;
+  margin-left: 12%;
+  margin-right: 5%;
+}
+.bottom-info {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  box-shadow: 20px 20px 40px rgb(71, 70, 70);
+  margin-bottom: 100px;
+  padding-bottom: 90px;
+}
+
+.recipe-area p {
+  text-align: center;
+}
+.recipe-area h1 {
+  text-align: center;
+  color: #313131;
+}
+.food-footer {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+}
+.footer-title {
+  padding: 10px;
+  text-align: center;
+}
+.footer-para {
+  text-align: center;
+  color: white;
+}
