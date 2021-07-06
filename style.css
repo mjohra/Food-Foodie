@@ -34,6 +34,7 @@ header {
 nav {
   float: right;
   line-height: 60px;
+  margin-top: 20px;
 }
 nav a {
   text-decoration: none;
@@ -238,6 +239,52 @@ h2 {
   margin-bottom: 100px;
   padding-bottom: 90px;
 }
+
+.bottom-area2 {
+    background: white;
+    width: 50%;
+    margin-top:3%;
+    margin-left: 12%;
+    margin-right: 5%;
+    margin-bottom:2%;
+  }
+  .bottom-area2 h4{
+      color:tomato;
+      font-weight: 900;
+      font-size: 25px;
+  }
+  #area3{
+   color: rgb(61, 58, 58);
+   font-size:20px;
+  }
+  .bottom-another {
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 20px 20px 40px rgb(71, 70, 70);
+    margin-bottom: 100px;
+
+    background-image: url(images/food/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  #bottom-another-ex{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgba(255, 72, 0, 0.548), tomato);
+    border-image-slice: 3;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    font-weight: 900;
+    background-color:coral;
+  }
+
 
 .recipe-area p {
   text-align: center;
