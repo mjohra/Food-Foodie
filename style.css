@@ -69,11 +69,18 @@ h2 {
 .orange-color {
   color: orange;
 }
+.green-color {
+    color:green;
+}
+
 .top-part {
   margin-top: 100px;
 }
 .middle-part {
   margin-top: 100px;
+}
+.middle-part h3{
+    color:#3742fa;
 }
 .top-part p {
   color: gray;
@@ -138,6 +145,8 @@ h2 {
   margin-top: 50px;
   margin-bottom: 100px;
 }
+
+
 .recipe-intro-detail {
   text-align: center;
   padding: 5px 400px;
